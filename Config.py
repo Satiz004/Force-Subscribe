@@ -15,7 +15,7 @@ class Config():
   API_HASH = os.environ.get("API_HASH", "")
 
   # Sudo users (Put your User ID)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "").split()))
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "2023517850").split()))
   SUDO_USERS.append()
   SUDO_USERS = list(set(SUDO_USERS))
   # Others
